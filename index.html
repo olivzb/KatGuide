@@ -1,1 +1,139 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katja - Tour Guide Services</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* CSS for styling the business card website */
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #86d6e1;
+            background-image: url("./beach_1.png");
+            background-position: center;
+            background-size: cover;
+            color: #333;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        .card-container {
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            max-width: 600px;
+            width: 90%;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .card-container:hover {
+            transform: translateY(-5px);
+        }
+
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #007bff;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #007bff;
+            font-size: 2.5em;
+            margin: 10px 0;
+        }
+
+        h2 {
+            font-size: 1.2em;
+            color: #555;
+            margin-bottom: 30px;
+        }
+
+        p {
+            line-height: 1.6;
+            margin: 15px 0;
+        }
+
+        .services-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        .services-list li {
+            background-color: #e9ecef;
+            border-radius: 20px;
+            padding: 10px 20px;
+            font-weight: bold;
+            color: #007bff;
+            transition: background-color 0.3s;
+        }
+
+        .services-list li:hover {
+            background-color: #ced4da;
+        }
+
+        .contact-info {
+            margin-top: 40px;
+            font-size: 1.1em;
+        }
+
+        .contact-info a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 10px;
+            transition: color 0.3s;
+        }
+
+        .contact-info a:hover {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card-container">
+        <img src="./k.png" alt="Your Name Profile Picture" class="profile-picture">
+
+        <h1>Katja Lauer-Sunassee</h1>
+        <h2>Private Driver and Guide</h2>
+
+        <p>Hello! I'm Katja, a passionate and experienced tour guide
+             dedicated to creating unforgettable travel experiences. 
+             With extensive knowledge of [mention your area, e.g., the history of Rome, the 
+             natural beauty of the Swiss Alps, the hidden gems of Tokyo], 
+             I specialize in crafting personalized tours that go beyond the typical tourist path.</p>
+
+        <p><strong>My Specialties:</strong></p>
+        <ul class="services-list">
+            <li>Specialist for German Customers / Deutschsprachig (deutsche Wurzeln)</li>
+            <li>Tailor-made excursions</li>
+            <li>Individual Tours / Individuelle Touren</li>
+            <li>Airport Transportation / Flughafen-transfer</li>
+            <li>Reliable and trustworthy service / Vertrauenswürdig und zuverlässiger Service</li>
+        </ul>
+
+        <div class="contact-info">
+            <p>Ready to explore? Let's plan your next adventure!</p>
+            <a href="mailto:your.email@example.com"><u>Email</u></a>
+            <a href="tel:+1234567890"><u>Call</u></a>
+            <a href="" target="_blank"><u>Social</u></a>
+        </div>
+    </div>
+
+</body>
+</html>
